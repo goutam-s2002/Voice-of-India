@@ -4,7 +4,7 @@ const NavBar = ({ toggleTheme, toggleSidebar }) => {
     return (
         <nav className="navbar">
             <div className="container">
-                <a href="/" className="logo">Voice of India</a>
+                <a href="/Voice-of-India" className="logo">Voice of India</a>
                 <button className="menu-toggle" aria-label="Toggle menu" onClick={toggleSidebar}>
                     &#9776;
                 </button>
