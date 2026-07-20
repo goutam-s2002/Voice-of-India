@@ -34,7 +34,7 @@ const NavBar = ({ setCategory, setCountry, country, toggleSidebar }) => {
   return (
     <nav className="navbar">
       <div className="container">
-        <a href="/" className="logo">
+        <a href="/Voice-of-India" className="logo">
           Voice of India
         </a>
         <button
