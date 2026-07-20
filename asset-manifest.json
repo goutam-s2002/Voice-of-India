@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Voice-of-India/static/css/main.d905912d.css",
-    "main.js": "/Voice-of-India/static/js/main.04dff893.js",
+    "main.js": "/Voice-of-India/static/js/main.0ac46fa6.js",
     "static/js/453.66ee310d.chunk.js": "/Voice-of-India/static/js/453.66ee310d.chunk.js",
     "static/media/logo.svg": "/Voice-of-India/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Voice-of-India/index.html",
     "main.d905912d.css.map": "/Voice-of-India/static/css/main.d905912d.css.map",
-    "main.04dff893.js.map": "/Voice-of-India/static/js/main.04dff893.js.map",
+    "main.0ac46fa6.js.map": "/Voice-of-India/static/js/main.0ac46fa6.js.map",
     "453.66ee310d.chunk.js.map": "/Voice-of-India/static/js/453.66ee310d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d905912d.css",
-    "static/js/main.04dff893.js"
+    "static/js/main.0ac46fa6.js"
   ]
 }
