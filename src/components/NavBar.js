@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import darkIcon from "./dark-mode.png";
-import lightIcon from "./light-mode.png";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 const ThemeToggle = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,7 +23,7 @@ const ThemeToggle = () => {
   );
 };
 
-const NavBar = ({ setCategory, setCountry, toggleSidebar }) => {
+const NavBar = ({ setCategory, setCountry, country, toggleSidebar }) => {
   const handleCategoryChange = (category) => {
     setCategory(category);
   };
@@ -94,15 +92,17 @@ const NavBar = ({ setCategory, setCountry, toggleSidebar }) => {
 
           <select
             id="country-select"
+            value={country}
             onChange={(e) => {
               handleCountryChange(e.target.value);
             }}
           >
-            <option value="us">United States</option>
             <option value="in">India</option>
+            <option value="us">United States</option>
             <option value="gb">United Kingdom</option>
-            <option value="ca">Canada</option>
             <option value="au">Australia</option>
+            <option value="fr">France</option>
+            <option value="ru">Russia</option>
           </select>
           <ThemeToggle />
         </ul>
